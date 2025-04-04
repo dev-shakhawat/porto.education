@@ -10,9 +10,36 @@
 
 
 /* colors */
---color-white: #ffffff;
---color-black: #000000;
---color-gray: #808080;
---color-gray-light: #f1f1f1;
+--color-brand: #EC4F4F;
+--color-brand2: #332859;
+--color-secondery: #777777;
 
+}
+
+/* container */
+@utility container {
+  padding-inline: 10px;
+  margin-inline: auto;
+  
+  @variant sm {
+    padding-inline: 20px;
+  }
+  
+  @variant lg {
+    padding-inline: 80px;
+  }
+  
+  @variant xl {
+    padding-inline: 120px;
+  }
+}
+
+
+/* common css */
+*{
+  @apply font-poppins;
+}
+
+.cmnBtn{
+  @apply uppercase bg-brand2 text-white py-[22px] px-[40px]  text-[12.8px] leading-[19.2px] font-semibold hover:opacity-80 duration-[.5s] ease-in-out;
 }
