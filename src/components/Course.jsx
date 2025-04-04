@@ -42,7 +42,7 @@ const Course = () => {
   return (
     <div className=" bg-[#F4F4F4] py-[74px]  ">
       <div className="container">
-        <h2 className="text-center text-brand2 font-extrabold text-[25px] leading-[25px] pb-9     ">Popular Courses</h2>
+        <h2 className="cmnTitle pb-9     ">Popular Courses</h2>
         <div className="grid grid-cols-3 gap-4   ">
           {CourseDetails.map((item, index) => (
             <CourseCard
@@ -56,6 +56,9 @@ const Course = () => {
               price={item.price}
             />
           ))}
+        </div>
+        <div className="flex justify-center mt-8  ">
+          <button className="cmnBtn" type="button">view all</button>
         </div>
       </div>
     </div>

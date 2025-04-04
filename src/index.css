@@ -43,3 +43,9 @@
 .cmnBtn{
   @apply uppercase bg-brand2 text-white py-[22px] px-[40px]  text-[12.8px] leading-[19.2px] font-semibold hover:opacity-80 duration-[.5s] ease-in-out;
 }
+.cmnTitle{
+  @apply self-center text-3xl font-semibold tracking-tighter leading-none text-center text-brand2 
+}
+.cmnSubTitle{
+  @apply text-xl font-semibold tracking-tighter leading-7 text-brand2 max-sm:text-base
+}

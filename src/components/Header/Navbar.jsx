@@ -5,10 +5,10 @@ import React from 'react'
 import List from '../common/List'
 import { BsSearch } from "react-icons/bs";
 
-const Navbar = ({tyle}) => {
+const Navbar = ({style}) => {
   const navLink = [{list:"Home"},{list:"About"},{list:"Courses"},{list:"Instructors"},{list:"Blog"},{list:"Contact Us"}]
   return (
-    <div className={`${tyle} fixed top-[8%] left-0 w-full z-50   `}>
+    <div className={`${style} fixed  left-0 w-full z-50 duration-[.4s] py-3  `}>
       <div className="container">
         <div className="flex justify-between items-center  ">
           <img src="/images/logo.png" alt="logo" className=' w-[130px] ' />

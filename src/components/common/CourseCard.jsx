@@ -19,7 +19,7 @@ const CourseCard = ({bg , profile , title , students , comments , price , author
       </div>
       <div className="px-8 pt-9 pb-8 max-sm:px-4 max-sm:pt-6 max-sm:pb-4 bg-white  ">
         <p className="mb-2 text-xs uppercase text-secondery   ">{author}</p>
-        <h2 className="mb-4 text-xl font-semibold tracking-tighter leading-7 text-brand2">
+        <h2 className="mb-4 cmnSubTitle">
           {title}
         </h2>
         <div className="flex gap-5 items-center max-sm:flex-wrap">

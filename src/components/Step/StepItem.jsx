@@ -13,10 +13,10 @@ export const StepItem = ({
         <img src={icon} alt="icon" className="w-[40px]     "/>
       </div>
       <div className="flex flex-col">
-        <span className="text-xs leading-7 uppercase text-neutral-500 max-sm:text-xs">
+        <span className="text-xs leading-7 uppercase text-secondery max-sm:text-xs">
           {subtitle}
         </span>
-        <h3 className="text-xl font-semibold tracking-tighter leading-7 text-slate-700 max-sm:text-base">
+        <h3 className="cmnSubTitle">
           {title}
         </h3>
       </div>
